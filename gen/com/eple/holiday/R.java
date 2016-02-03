@@ -13,89 +13,92 @@ public final class R {
     public static final class color {
         /**  青色 
          */
-        public static final int azure=0x7f04000d;
+        public static final int azure=0x7f04000e;
+        public static final int bggray=0x7f040000;
         /**  白色 
          */
-        public static final int black=0x7f04001b;
+        public static final int black=0x7f04001c;
         /**  粉蓝色 
          */
-        public static final int blue=0x7f040014;
+        public static final int blue=0x7f040015;
         /**  酸橙色 
          */
-        public static final int cyan=0x7f04000c;
+        public static final int cyan=0x7f04000d;
         /**  灰色 
          */
-        public static final int darkgray=0x7f040018;
+        public static final int darkgray=0x7f040019;
         /**  紫色 
          */
-        public static final int gray=0x7f040017;
+        public static final int gray=0x7f040018;
         /**  亮黄色 
          */
-        public static final int green=0x7f04000a;
+        public static final int green=0x7f04000b;
         /**  亮粉红色 
          */
-        public static final int hotpink=0x7f040005;
-        public static final int ivory=0x7f040000;
+        public static final int hotpink=0x7f040006;
+        /**  背景色 
+         */
+        public static final int ivory=0x7f040001;
         /**  亮钢兰色 
          */
-        public static final int lightblue=0x7f040011;
+        public static final int lightblue=0x7f040012;
         /**  亮蓝色 
          */
-        public static final int lightcyan=0x7f040012;
+        public static final int lightcyan=0x7f040013;
         /**  暗灰色 
          */
-        public static final int lightgray=0x7f040019;
+        public static final int lightgray=0x7f04001a;
         /**  粉红色 
          */
-        public static final int lightpink=0x7f040004;
+        public static final int lightpink=0x7f040005;
         /**  天蓝色 
          */
-        public static final int lightskyblue=0x7f04000f;
+        public static final int lightskyblue=0x7f040010;
         /**  亮天蓝色 
          */
-        public static final int lightsteelblue=0x7f040010;
+        public static final int lightsteelblue=0x7f040011;
         /**  黄色 
          */
-        public static final int lightyellow=0x7f040009;
+        public static final int lightyellow=0x7f04000a;
         /**  绿色 
          */
-        public static final int lime=0x7f04000b;
+        public static final int lime=0x7f04000c;
         /**  蓝色 
          */
-        public static final int navy=0x7f040015;
+        public static final int navy=0x7f040016;
         /**  红橙色 
          */
-        public static final int orange=0x7f040007;
+        public static final int orange=0x7f040008;
         /**  热粉红色 
          */
-        public static final int orangered=0x7f040006;
+        public static final int orangered=0x7f040007;
         /**  西红柿色 
          */
-        public static final int pink=0x7f040003;
+        public static final int pink=0x7f040004;
         /**  亮青色 
          */
-        public static final int powderblue=0x7f040013;
+        public static final int powderblue=0x7f040014;
         /**  海军色 
          */
-        public static final int purple=0x7f040016;
+        public static final int purple=0x7f040017;
         /**  象牙色 
          */
-        public static final int red=0x7f040001;
+        public static final int red=0x7f040002;
         /**  天蓝色 
          */
-        public static final int skyblue=0x7f04000e;
+        public static final int skyblue=0x7f04000f;
         /**  黑色 
          */
-        public static final int tan=0x7f04001c;
+        public static final int tan=0x7f04001d;
         /**  红色 
          */
-        public static final int tomato=0x7f040002;
+        public static final int tomato=0x7f040003;
         /**  亮灰色 
          */
-        public static final int white=0x7f04001a;
+        public static final int white=0x7f04001b;
         /**  橙色 
          */
-        public static final int yellow=0x7f040008;
+        public static final int yellow=0x7f040009;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -113,31 +116,60 @@ public final class R {
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f090000;
-        public static final int TextView01=0x7f090008;
-        public static final int action_settings=0x7f09000f;
+        public static final int TableLayout1=0x7f09001a;
+        public static final int TableLayout2=0x7f09001e;
+        public static final int TextView01=0x7f090020;
+        public static final int action_settings=0x7f09002a;
+        public static final int appPage_GoodsName_et=0x7f090008;
+        public static final int appPage_carType_iv=0x7f090011;
+        public static final int appPage_carType_tv=0x7f090010;
+        public static final int appPage_choiceDate=0x7f09000e;
+        public static final int appPage_choiceEndPosition=0x7f09000c;
+        public static final int appPage_choiceStartPosition=0x7f09000a;
+        public static final int appPage_comment=0x7f090016;
+        public static final int appPage_goodsDescript_iv=0x7f090013;
+        public static final int appPage_goodsDescript_tv=0x7f090012;
+        public static final int appPage_goodspic_iv=0x7f090015;
+        public static final int appPage_goodspic_tv=0x7f090014;
+        public static final int appPage_moreFree=0x7f090018;
+        public static final int appPage_specialRequest=0x7f090017;
+        public static final int app_page2_offlineRedio=0x7f09001c;
+        public static final int app_page2_onlineRedio=0x7f09001b;
         public static final int bottom=0x7f090002;
         public static final int bottom_click1=0x7f090004;
         public static final int bottom_click2=0x7f090005;
         public static final int bottom_click3=0x7f090006;
         public static final int bottom_click4=0x7f090007;
+        public static final int button1=0x7f090025;
+        public static final int button2=0x7f090026;
+        public static final int callcar_page1_nextBtn=0x7f090019;
+        public static final int callcar_page2_submitBtn=0x7f09001f;
+        public static final int imageView2=0x7f09000b;
+        public static final int imageView22=0x7f09000d;
+        public static final int imageView223=0x7f09000f;
+        public static final int imageView2e2=0x7f09001d;
         public static final int main_content=0x7f090003;
-        public static final int page1_lv=0x7f09000b;
-        public static final int page1item_content=0x7f09000e;
-        public static final int page1item_pic=0x7f09000c;
-        public static final int page1item_title=0x7f09000d;
-        public static final int textView1=0x7f090009;
+        public static final int page1_lv=0x7f090023;
+        public static final int page1item_content=0x7f090028;
+        public static final int page1item_pic=0x7f090024;
+        public static final int page1item_title=0x7f090027;
+        public static final int tableRow15=0x7f090009;
+        public static final int textView1=0x7f090021;
         public static final int title=0x7f090001;
-        public static final int 暂存=0x7f09000a;
+        public static final int to=0x7f090029;
+        public static final int 暂存=0x7f090022;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int bottom=0x7f030001;
-        public static final int page1=0x7f030002;
-        public static final int page1item=0x7f030003;
-        public static final int page2=0x7f030004;
-        public static final int page3=0x7f030005;
-        public static final int page4=0x7f030006;
-        public static final int title=0x7f030007;
+        public static final int callcar_submit_page1=0x7f030002;
+        public static final int callcar_submit_page2=0x7f030003;
+        public static final int page1=0x7f030004;
+        public static final int page1item=0x7f030005;
+        public static final int page2=0x7f030006;
+        public static final int page3=0x7f030007;
+        public static final int page4=0x7f030008;
+        public static final int title=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f080000;
