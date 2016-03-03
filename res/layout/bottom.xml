@@ -2,92 +2,71 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="@color/themeblue"
+    android:orientation="horizontal" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:padding="5dp" >
 
         <LinearLayout
             android:id="@+id/bottom_click1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:onClick="btn_bottom_click"
-             >
+            style="@style/bottom_linerlayoutbox" >
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="32dp"
+                style="@style/bottom_img"
                 android:src="@drawable/ic_launcher" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="公告栏" />
+                style="@style/bottom_text"
+                android:text="主页" />
+
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/bottom_click2"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:onClick="btn_bottom_click" >
+            style="@style/bottom_linerlayoutbox" >
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="32dp"
+                style="@style/bottom_img"
                 android:src="@drawable/ic_launcher" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="发单" />
+                style="@style/bottom_text"
+                android:text="订单" />
         </LinearLayout>
 
         <LinearLayout
+            style="@style/bottom_linerlayoutCenter" >
+        </LinearLayout>
+        <!--android:id="@+id/bottom_click5" -->
+
+        <LinearLayout
             android:id="@+id/bottom_click3"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:onClick="btn_bottom_click" >
+            style="@style/bottom_linerlayoutbox" >
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="32dp"
+                style="@style/bottom_img"
                 android:src="@drawable/ic_launcher" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="联系人" />
+                style="@style/bottom_text"
+                android:text="消息" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/bottom_click4"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:onClick="btn_bottom_click" >
+            style="@style/bottom_linerlayoutbox" >
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="32dp"
+                style="@style/bottom_img"
                 android:src="@drawable/ic_launcher" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="货物状态" />
+                style="@style/bottom_text"
+                android:text="个人" />
         </LinearLayout>
     </LinearLayout>
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval"
+    android:useLevel="false" >
+    <solid android:color="@color/red" />
+    <padding 
+		android:left="2dp" 
+		android:top="1dp" 
+		android:right="2dp" 
+		android:bottom="1dp" />
+    <solid
+        android:color="@color/white" />	<!-- 圆的颜色(里面) -->
+    <stroke
+        android:width="8dp"			
+        android:color="@color/themeblue" />	<!-- 环的颜色 --><!-- 环的颜色 imgview跟textview里效果不同 -->
+    <size android:width="10dp"
+          android:height="10dp" />		<!-- 白色的圈的大小 (里面) -->
+    
+
+</shape>

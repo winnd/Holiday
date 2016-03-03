@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no">
+<meta http-equiv="refressh" content="0.3">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="js/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+<title>index</title>
+<style>
+/*颜色 
+#F0F0F2 灰
+*/
+*{
+	margin:0px auto;
+	padding:0px;
+	font-size: 12px;
+} 
+
+ul,li{
+	list-style-type:none;
+}
+ul{
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+p{
+	text-indent: 1em;
+}
+html,body{
+	width:100%;	
+	height:100%;
+}
+/*全局设置*/
+.body1{
+	width: 100%;
+	height:100%;
+	background: #F0F0F2;
+	position: relative;
+	overflow-x: hidden;
+}
+.body1>ul{
+	position: absolute;
+	width:100%;
+	overflow: hidden;
+}
+.body1>ul>li{
+	float: left;
+	width:100%;
+	height:auto;
+}
+.box1{
+	width:100%;
+	height:100%;
+}
+.box1>div>ul{
+	width: 90%;
+	height: 100%;
+	overflow: hidden;
+}
+.box1>div>ul>ul>li{
+	width:100%;
+	height: auto;
+	background:white;
+	margin-top:10px;
+	padding-left:1em;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:8px;
+	box-shadow:1px 1px 1px #878787;
+}
+.box1>div>ul>ul>li>li:nth-of-type(even){
+	width:100%;
+	height:100%;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.box1 li:nth-of-type(even){
+	color: black;
+	padding-left:2em;
+	background:#ddd;
+}
+.box1 li:nth-child(7){
+	background: #ddd;
+}
+.box1 h3{
+	background:#ffffff;
+	width:100%;
+	text-align:left;
+	margin-top: 10px;
+}
+.box1 h3 img{
+	width:20px;
+	height:100%;
+	float:right;
+}
+.box1 button{
+	float:right;
+	margin-top:8px;
+}
+.all{
+	width:100%;
+	height:100%;
+	position: relative;
+	top:20px;
+}
+/*//登录按钮*/
+.header_nav2{
+	width:100%;
+	height:50px;
+	background: white;
+	display: flex;
+	flex-flow:row nowrap;
+	justify-content:center;
+	align-items:center;
+}
+.header_nav2 button{
+	border:2px solid #FF9966;
+	background:white;
+	color:#FF9966;
+}
+</style>
+</head>
+<body>
+	<div class="body1" id="body1">
+		<ul id="ul1">
+			<li class="div1" id="div1">
+				<div class="header"></div>
+				<div class="content">
+						<div class="header_nav2 btn-group my_btn_group" id="header_nav2">
+							<button class="btn" style="color:white;background:#FF9966;">未完成</button>
+							<button class="btn">已完成</button>
+						</div>
+						<script>
+						</script>
+						<div class="box1" id="box1">
+							<!--未完成按钮整体开始-->
+							<div>					<!--未完成页为显示, 已完成页为隐藏-->
+								<ul>
+									<h3 class="btn">my bolg<img src="img/down.png" alt=""></h3>
+									<ul style="display:none;"><!--请务必加上style="display:none;"-->
+										<li>文件列表</li>
+										<li>myblog.html<br>myblog.css</li>
+										<li>备注</li>
+										<li>快要完不成辣</li>
+										<li>更改记录</li>
+										<li>
+											<ul>
+												<li>2015.1.2</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+												<li>2015.1.1</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+											</ul>
+										</li>
+										<button class="btn btn-default ">获取文件</button>
+									</ul>
+								</ul><!--未完成(1)结束-->
+													<!--未完成页为显示, 已完成页为隐藏-->
+								<ul>
+									<h3 class="btn">my bolg<img src="img/down.png" alt=""></h3>
+									<ul style="display:none;"><!--请务必加上style="display:none;"-->
+										<li>文件列表</li>
+										<li>myblog.html<br>myblog.css</li>
+										<li>备注</li>
+										<li>快要完不成辣</li>
+										<li>更改记录</li>
+										<li>
+											<ul>
+												<li>2015.1.2</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+												<li>2015.1.1</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+											</ul>
+										</li>
+										<button class="btn btn-default ">获取文件</button>
+									</ul>
+								</ul><!--未完成(2)结束-->
+													<!--未完成页为显示, 已完成页为隐藏-->
+								<ul>
+									<h3 class="btn">my bolg<img src="img/down.png" alt=""></h3>
+									<ul style="display:none;"><!--请务必加上style="display:none;"-->
+										<li>文件列表</li>
+										<li>myblog.html<br>myblog.css</li>
+										<li>备注</li>
+										<li>快要完不成辣</li>
+										<li>更改记录</li>
+										<li>
+											<ul>
+												<li>2015.1.2</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+												<li>2015.1.1</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+											</ul>
+										</li>
+										<button class="btn btn-default ">获取文件</button>
+									</ul>
+								</ul><!--未完成(3)结束-->
+							</div><!--未完成按钮整体结束-->
+							<!--已完成按钮整体开始-->
+							<div style="display:none;">
+													<!--未完成页为显示, 已完成页为隐藏-->
+								<ul>
+									<h3 class="btn">my bolg<img src="img/down.png" alt=""></h3>
+									<ul style="display:none;"><!--请务必加上style="display:none;"-->
+										<li>文件列表</li>
+										<li>myblog.html<br>myblog.css</li>
+										<li>备注</li>
+										<li>快要完不成辣</li>
+										<li>更改记录</li>
+										<li>
+											<ul>
+												<li>2015.1.2</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+												<li>2015.1.1</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+											</ul>
+										</li>
+										<button class="btn btn-default ">获取文件</button>
+									</ul>
+								</ul><!--未完成(1)结束-->
+													<!--未完成页为显示, 已完成页为隐藏-->
+								<ul>
+									<h3 class="btn">my bolg<img src="img/down.png" alt=""></h3>
+									<ul style="display:none;"><!--请务必加上style="display:none;"-->
+										<li>文件列表</li>
+										<li>myblog.html<br>myblog.css</li>
+										<li>备注</li>
+										<li>快要完不成辣</li>
+										<li>更改记录</li>
+										<li>
+											<ul>
+												<li>2015.1.2</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+												<li>2015.1.1</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+											</ul>
+										</li>
+										<button class="btn btn-default ">获取文件</button>
+									</ul>
+								</ul><!--未完成(2)结束-->
+													<!--未完成页为显示, 已完成页为隐藏-->
+								<ul>
+									<h3 class="btn">my bolg<img src="img/down.png" alt=""></h3>
+									<ul style="display:none;"><!--请务必加上style="display:none;"-->
+										<li>文件列表</li>
+										<li>myblog.html<br>myblog.css</li>
+										<li>备注</li>
+										<li>快要完不成辣</li>
+										<li>更改记录</li>
+										<li>
+											<ul>
+												<li>2015.1.2</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+												<li>2015.1.1</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+											</ul>
+										</li>
+										<button class="btn btn-default ">获取文件</button>
+									</ul>
+								</ul><!--未完成(3)结束-->
+													<!--未完成页为显示, 已完成页为隐藏-->
+								<ul>
+									<h3 class="btn">my bolg<img src="img/down.png" alt=""></h3>
+									<ul style="display:none;"><!--请务必加上style="display:none;"-->
+										<li>文件列表</li>
+										<li>myblog.html<br>myblog.css</li>
+										<li>备注</li>
+										<li>快要完不成辣</li>
+										<li>更改记录</li>
+										<li>
+											<ul>
+												<li>2015.1.2</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+												<li>2015.1.1</li>
+												<li>myblog.html 添加<br>myblog.css 添加</li>
+											</ul>
+										</li>
+										<button class="btn btn-default ">获取文件</button>
+									</ul>
+								</ul><!--未完成(3)结束-->
+							</div>
+						</div>
+				</div>
+		</ul>
+	</div>
+</body>
+<script>
+
+//未完成(1)的展开
+window.onload=function(){
+	var ocontent=document.getElementById('box1');
+	var state = false;
+
+function bbb(){
+	var ocontent_div=ocontent.children[0];
+	for(var i=0;i<ocontent_div.children.length;i++){
+
+		ocontent_div.children[i].children[0].index=i;
+		ocontent_div.children[i].children[0].state=false;
+		
+		ocontent_div.children[i].children[0].onclick=function(){
+
+			var odisplay=ocontent_div.children[this.index].children[1];
+			
+			if(this.state==false){
+				odisplay.style.display="block";
+				this.state = !this.state;
+				this.children[0].src="img/up.png"
+			}else{
+				this.state = !this.state;
+				odisplay.style.display="none";
+				this.children[0].src="img/down.png"
+			}
+		}
+	}
+}
+
+function aaa(){
+	var ocontent_div=ocontent.children[1];
+	for(var i=0;i<ocontent_div.children.length;i++){
+
+		ocontent_div.children[i].children[0].index=i;
+		ocontent_div.children[i].children[0].state=false;
+		ocontent_div.children[i].children[0].onclick=function(){
+
+			var odisplay=ocontent_div.children[this.index].children[1];
+			
+			if(this.state==false){
+				odisplay.style.display="block";
+				this.state = !this.state;
+				this.children[0].src="img/up.png"
+			}else{
+				this.state = !this.state;
+				odisplay.style.display="none";
+				this.children[0].src="img/down.png"
+			}
+		}
+	}
+}
+aaa()
+bbb()
+//未完成按钮
+	var oheader_btn=document.getElementById('header_nav2').children;
+
+
+	var obox1=document.getElementById('box1');
+	var obox1_ul=obox1.children;
+
+	for(var i=0;i<oheader_btn.length;i++){
+		oheader_btn[i].index=i;
+		oheader_btn[i].onclick=function(){
+			for(var i=0;i<oheader_btn.length;i++){
+				oheader_btn[i].style.background="white";
+				oheader_btn[i].style.color="#FF9966";
+				obox1_ul[i].style.display="none";
+				
+			}
+			oheader_btn[this.index].style.background="#FF9966"
+			oheader_btn[this.index].style.color="white"
+			obox1_ul[this.index].style.display="block";
+		}
+	}
+}
+</script>
+</html>

@@ -15,12 +15,30 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.exp.activity.MainActivity"
-            android:label="@string/app_name" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+           >
+           <!--  android:label="@string/app_name"  -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.exp.activity.Page1_itemDetailPage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  >
+        </activity>
+        <activity
+            android:name="com.exp.activity.CallCar_submitPage_submit"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  >
+        </activity>
+        <activity
+            android:name="com.exp.activity.Page5"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  >
+        </activity>
+        <activity
+            android:name="com.exp.activity.Page1_itemDetailPage2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  >
         </activity>
     </application>
 
